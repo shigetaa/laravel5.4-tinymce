@@ -1,0 +1,19 @@
+{
+    "name": "shigetaa/laravel5.4-tinymce",
+    "description": "TinyMCE editor for Laravel Framework",
+    "keywords": ["laravel","tinymce","ckeditor","editor","WYSIWYG","textarea"],
+    "homepage": "https://github.com/shigetaa/laravel5.4-tinymce",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akira Shigeta",
+            "email": "akira.shigeta@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Shigetaa\\Tinymce\\": "src/"
+        }
+    },
+    "require": {}
+}
