@@ -2,6 +2,7 @@
 
 ## 特徴
 laravel フレームワークで、リッチエディタ「TinyMCE」を利用できるようにする。
+* TinyMCE verstion 4
 
 ## インストール
 ``` bash
@@ -29,4 +30,13 @@ laravel フレームワークで、リッチエディタ「TinyMCE」を利用�
 下記の include を追記する。
 ``` php
 @include('tinymce::load')
+```
+
+## TinyMCE plugins 設定変更
+TinyMCE エディターのボタン・言語変化は config/tinymce.php
+ファイルの plugins language などの値を変更
+値の設定値はこちらをご覧ください。
+https://www.tinymce.com/docs/plugins/
+``` bash
+# vim config/tinymce.php
 ```

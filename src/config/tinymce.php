@@ -6,8 +6,8 @@ return [
     'cdn' => config('app.url') . '/vendor/js/tinymce/tinymce.min.js',
 
     'default' => [
-        "selector" => ".tinymce",
-        "language" => 'en',
+        "selector" => "textarea",
+        "language" => config('app.locale'),
         "theme" => "modern",
         "skin" => "lightgray",
         "plugins" => [
